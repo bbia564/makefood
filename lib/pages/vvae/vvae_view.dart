@@ -11,7 +11,7 @@ class VaeFanList extends GetView<PageLogic> {
     return Scaffold(
       body: Center(
         child: Obx(
-          () => controller.grady.value
+          () => controller.klocko.value
               ? const CircularProgressIndicator(color: Colors.orange)
               : buildError(),
         ),
@@ -26,7 +26,7 @@ class VaeFanList extends GetView<PageLogic> {
         children: [
           IconButton(
             onPressed: () {
-              controller.ahsew();
+              controller.zpatihgu();
             },
             icon: const Icon(
               Icons.restart_alt,
