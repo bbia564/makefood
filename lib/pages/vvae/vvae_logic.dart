@@ -93,7 +93,6 @@ class PageLogic extends GetxController {
       at_GKHCxchA = eicftxowqa.identifierForVendor ?? "";
       at_fE  = eicftxowqa.isPhysicalDevice;
     }
-
     var res = {
       "at_pAgGX": at_pAgGX,
       "at_OQr": at_OQr,
